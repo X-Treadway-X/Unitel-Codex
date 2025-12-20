@@ -18,7 +18,7 @@ th:hover,
 blockquote:hover{
     color: darkgoldenrod;
     text-align: center;
-    font-family: 'Junicode','Times New Roman', Times, serif;
+    font-family: 'JetBrains Mono','Times New Roman', Times, serif;
     box-shadow: 0 0 25px 0;
     /* This style here allow you to focus on what you are reading */
 
@@ -302,7 +302,7 @@ blockquote:hover{
 
 
 @font-face {
-  font-family: 'Brains Mono';
+  font-family: 'JetBrains Mono';
   src: url('.Fonts/JetBrains Mono/JetBrainsMono-VariableFont_wght.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
@@ -369,7 +369,7 @@ blockquote:hover{
         padding: 1em;
         border-radius: 5px;
         overflow-x: auto;
-        font-family: monospace;
+        font-family: 'JetBrains Mono','Times New Roman', Times, serif;
         margin: 1.5em 0;
         margin-right: 150px;
         margin-left: 150px;
@@ -377,7 +377,7 @@ blockquote:hover{
     }
 
     code {
-        font-family: 'Junicode';
+        font-family: 'JetBrains Mono','Times New Roman', Times, serif;
     }
 
     /* HTML operator-style syntax highlighting */
@@ -623,7 +623,7 @@ blockquote {
         padding: 1em;
         border-radius: 5px;
         overflow-x: auto;
-        font-family: monospace;
+        font-family: 'JetBrains Mono','Times New Roman', Times, serif;
         margin: 1.5em 0;
         margin-right: 150px;
         margin-left: 150px;
@@ -631,7 +631,7 @@ blockquote {
     }
 
     code {
-        font-family: 'Junicode';
+        font-family: 'JetBrains Mono','Times New Roman', Times, serif;
     }
 
     /* HTML operator-style syntax highlighting */
@@ -662,7 +662,7 @@ blockquote {
 #space_code {
       background-color: #0d1117;
       color: #c9d1d9;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'JetBrains Mono','Times New Roman', Times, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -692,7 +692,7 @@ blockquote {
       position: relative;
       background-color: #161b22;
       color: #d1d5da;
-      font-family: 'Courier New', Courier, monospace;
+      font-family: 'JetBrains Mono','Times New Roman', Times, serif, 'Courier New', Courier, monospace;
       font-size: 15px;
       border-bottom-left-radius: 6px;
       border-bottom-right-radius: 6px;
@@ -799,7 +799,7 @@ blockquote {
 pre {
   margin: 0;
   padding: 16px;
-  font-family: Consolas, monospace;
+  font-family: 'JetBrains Mono','Times New Roman', Times, serif, Consolas, monospace;
   font-size: 14px;
   line-height: 1.4;
   overflow-x: auto;
@@ -818,7 +818,7 @@ textarea.codeBlock {
   color: #f1f1f1;
   border: none;
   padding: 16px;
-  font-family: Consolas, monospace;
+  font-family: 'JetBrains Mono','Times New Roman', Times, serif, Consolas, monospace;
   font-size: 14px;
   outline: none;
   border-radius: 0 0 12px 12px;
@@ -831,7 +831,7 @@ textarea.codeBlock {
 .console {
   background-color: #121212;
   color: #f1f1f1;
-  font-family: Consolas, monospace;
+  font-family: 'JetBrains Mono','Times New Roman', Times, serif, Consolas, monospace;
   font-size: 14px;
   padding: 12px 16px;
   min-height: 120px;
