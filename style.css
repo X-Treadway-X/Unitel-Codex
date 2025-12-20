@@ -2,7 +2,7 @@ body{
     background-color: #121212;
     color: darkgray;
     text-align: center;
-    font-family: 'Junicode','Times New Roman', Times, serif;
+    font-family: 'JetBrains Mono','Times New Roman', Times, serif;
 
 }
 
@@ -302,8 +302,8 @@ blockquote:hover{
 
 
 @font-face {
-  font-family: 'Junicode';
-  src: url('./Fonts/Junicode/Junicode.ttf') format('truetype');
+  font-family: 'Brains Mono';
+  src: url('.Fonts/JetBrains Mono/JetBrainsMono-VariableFont_wght.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
